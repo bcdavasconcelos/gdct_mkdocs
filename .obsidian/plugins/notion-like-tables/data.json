@@ -1,0 +1,129 @@
+{
+  "appData": {},
+  "state": {
+    "docs/Zettelkasten.md": {
+      "table-id-srvex5": {
+        "data": {
+          "headers": [
+            {
+              "id": "column-id-u7r75k",
+              "content": "New Column",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            },
+            {
+              "id": "column-id-ajr28c",
+              "content": "New Column",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            },
+            {
+              "id": "column-id-dpsmbj",
+              "content": "New Column",
+              "sortName": "default",
+              "width": "100px",
+              "type": "text"
+            }
+          ],
+          "rows": [
+            {
+              "id": "row-id-gkes8z",
+              "creationTime": 1653225415905
+            },
+            {
+              "id": "row-id-mgzofw",
+              "creationTime": 1653225415905
+            },
+            {
+              "id": "row-id-5daewr",
+              "creationTime": 1653225415905
+            }
+          ],
+          "cells": [
+            {
+              "id": "cell-id-r4gkdn",
+              "rowId": "row-id-mgzofw",
+              "headerId": "column-id-u7r75k",
+              "type": "text",
+              "expectedType": null,
+              "text": "José"
+            },
+            {
+              "id": "cell-id-ux9nlk",
+              "rowId": "row-id-mgzofw",
+              "headerId": "column-id-ajr28c",
+              "type": "text",
+              "expectedType": null,
+              "text": "Pedro e tal"
+            },
+            {
+              "id": "cell-id-git5xq",
+              "rowId": "row-id-mgzofw",
+              "headerId": "column-id-dpsmbj",
+              "type": "text",
+              "expectedType": null,
+              "text": ""
+            },
+            {
+              "id": "cell-id-ehfmxe",
+              "rowId": "row-id-gkes8z",
+              "headerId": "column-id-u7r75k",
+              "type": "text",
+              "expectedType": null,
+              "text": ""
+            },
+            {
+              "id": "cell-id-z0ca3r",
+              "rowId": "row-id-gkes8z",
+              "headerId": "column-id-ajr28c",
+              "type": "text",
+              "expectedType": null,
+              "text": ""
+            },
+            {
+              "id": "cell-id-sjs606",
+              "rowId": "row-id-gkes8z",
+              "headerId": "column-id-dpsmbj",
+              "type": "text",
+              "expectedType": null,
+              "text": ""
+            },
+            {
+              "id": "cell-id-tl1437",
+              "rowId": "row-id-5daewr",
+              "headerId": "column-id-u7r75k",
+              "type": "text",
+              "expectedType": null,
+              "text": ""
+            },
+            {
+              "id": "cell-id-btlycj",
+              "rowId": "row-id-5daewr",
+              "headerId": "column-id-ajr28c",
+              "type": "text",
+              "expectedType": null,
+              "text": ""
+            },
+            {
+              "id": "cell-id-xy53by",
+              "rowId": "row-id-5daewr",
+              "headerId": "column-id-dpsmbj",
+              "type": "text",
+              "expectedType": null,
+              "text": ""
+            }
+          ],
+          "tags": []
+        },
+        "viewType": "live-preview",
+        "shouldUpdate": true
+      }
+    }
+  },
+  "focusedElement": {
+    "id": "-1",
+    "type": "unfocused"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "theme": "obsidian",
+  "cssTheme": "Discordian",
+  "translucency": true,
+  "baseFontSize": 20,
+  "interfaceFontFamily": "Gentium Plus Compact,Rosario,Alegreya",
+  "textFontFamily": "Alegreya,Gentium Plus Compact",
+  "monospaceFontFamily": "Ubuntu,Monaco"
+}

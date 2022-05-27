@@ -1,0 +1,50 @@
+{
+  "pluginEnabledStatus": {
+    "file-explorer": true,
+    "global-search": true,
+    "switcher": true,
+    "graph": true,
+    "backlink": true,
+    "command-palette": true,
+    "markdown-importer": false,
+    "word-count": true,
+    "open-with-default-app": true,
+    "tag-pane": true,
+    "starred": true,
+    "outline": true,
+    "page-preview": true,
+    "file-recovery": true,
+    "publish": true
+  },
+  "foldHeading": true,
+  "foldIndent": true,
+  "showLineNumber": true,
+  "attachmentFolderPath": "img",
+  "obsidianCss": true,
+  "readableLineLength": true,
+  "autoConvertHtml": false,
+  "showFrontmatter": false,
+  "enabledPlugins": [
+    "obsidian-mind-map",
+    "tag-wrangler",
+    "obsidian-kanban"
+  ],
+  "legacyEditor": false,
+  "livePreview": true,
+  "alwaysUpdateLinks": true,
+  "strictLineBreaks": false,
+  "communityPluginSortOrder": "release",
+  "promptDelete": false,
+  "userIgnoreFilters": [
+    "build/",
+    "node_modules/",
+    "src/css/",
+    "src/components/",
+    "/.*js/"
+  ],
+  "newFileLocation": "current",
+  "newFileFolderPath": "docs",
+  "useMarkdownLinks": false,
+  "newLinkFormat": "shortest",
+  "showUnsupportedFiles": true
+}

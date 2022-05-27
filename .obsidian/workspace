@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "7b31cf245d863081",
+    "type": "split",
+    "children": [
+      {
+        "id": "2aaf8fe0ed0e0a3d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "docs/Aprendendo Grego.md",
+            "mode": "source",
+            "backlinks": true,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "36d0cbdf9a439749",
+    "type": "split",
+    "children": [
+      {
+        "id": "14ac19bc3d9091c7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bdc875a7cfc8668e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "53577d89943f58ac",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "fecde98f9596b030",
+            "type": "leaf",
+            "state": {
+              "type": "tagfolder-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 354
+  },
+  "right": {
+    "id": "4267e2b88d1e074b",
+    "type": "split",
+    "children": [
+      {
+        "id": "681eafd5b31891f4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "45d6970890c67bea",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/Aprendendo Grego.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "260dcfdc1fc7a83e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/Aprendendo Grego.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cfb518b07e85aa7c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9b7c36149b565962",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/Aprendendo Grego.md"
+              }
+            }
+          },
+          {
+            "id": "1bd7c67238e2309e",
+            "type": "leaf",
+            "state": {
+              "type": "ReferenceListView",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 231.99990844726562
+  },
+  "active": "2aaf8fe0ed0e0a3d",
+  "lastOpenFiles": [
+    "docs/Aprendendo Grego.md",
+    "docs/Aplicativos para eBooks.md",
+    "docs/Aplicativos para celular (IOS).md",
+    "docs/ABNT-Phi.md",
+    "Linguagens de marcação.md",
+    "HTML.md",
+    "Por que deveríamos parar de usar o Word.md",
+    "LaTeX.md",
+    "Guias para ajudar a estruturar o trabalho com textos acadêmicos.md",
+    "Home.md"
+  ]
+}

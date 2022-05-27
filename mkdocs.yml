@@ -1,37 +1,46 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
-
-
+# Site info
 site_name: Guia Digital do Classicista dos Trópicos
-repo_name: bcdavasconcelos/gdct_mkdocs
-repo_url: https://github.com/bcdavasconcelos/gdct_mkdocs
 copyright: Copyright &copy; 2022 Guia Digital do Classicista dos Trópicos
 site_description: >-
   O GDCT é um acervo de ferramentas e estratégias para auxiliar o trabalho de pesquisa nas ciências humanas, com atenção especial aos estudos antigos.
-extra:
-  analytics:
-    provider: google
-    property: G-XXXXXXXXXX
+
+# Git config
+repo_name: bcdavasconcelos/gdct_mkdocs
+repo_url: https://github.com/bcdavasconcelos/gdct_mkdocs
+edit_uri: edit/main/docs/
+
+#extra:
+#  analytics:
+#    provider: google
+#    property: G-XXXXXXXXXX
+extra_css:
+  - stylesheets/extra.css
 theme:
   name: material
-  language: pt
+  custom_dir: overrides
+  language: pt-BR
   font:
     text: Alegreya
     code: Inconsolata
   favicon: assets/favicon.png
   icon:
-    logo: logo
+#    logo: bootstrap/terminal
+#    logo: bootstrap/braces-asterisk
+    logo: bootstrap/globe
+    repo: fontawesome/brands/git-alt
   palette:
     - scheme: default
       primary: indigo
       accent: indigo
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-sunny
         name: Switch to dark mode
     - scheme: slate
       primary: indigo
       accent: indigo
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/weather-night
         name: Switch to light mode
   features:
   - navigation.instant
@@ -53,9 +62,15 @@ theme:
   # - navigation.tabs.sticky
   # - toc.integrate
 plugins:
+  - ezlinks
   - search:
       lang: pt
-  - git-revision-date-localized
+  - tags:
+      tags_file: tags.md
+  - git-revision-date-localized:
+      type: iso_date
+      locale: pt
+      timezone: America/Sao_Paulo
   - redirects:
       redirect_maps:
         reference/abbreviations.md: reference/tooltips.md
@@ -98,6 +113,15 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
 nav:
     - Home: index.md
-    - About: about.md
+    - Tags: tags.md
+    - Sobre:
+      - about/index.md
+      - Material Theme: about/material.md

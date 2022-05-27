@@ -1,0 +1,12 @@
+{
+  "githubRepo": "gdctobs",
+  "githubName": "bcdavasconcelos",
+  "GhToken": "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",
+  "shareKey": "share",
+  "ExcludedFolder": "Archive",
+  "fileMenu": false,
+  "editorMenu": false,
+  "categoryKey": "category",
+  "categoryDefault": "notes",
+  "indexFolder": "(i)"
+}
